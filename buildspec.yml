@@ -1,0 +1,13 @@
+version :2.0
+phases:
+  install:
+    runtime-versions:
+      python 3.10
+  build:
+    commands:
+      - echo 'Hello World is Working Properly'
+      - python hello.py
+artifacts:
+  files:
+    - hello.py
+    
